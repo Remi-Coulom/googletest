@@ -405,6 +405,7 @@
 # if !GTEST_OS_WINDOWS_MOBILE
 #  include <direct.h>
 #  include <io.h>
+#  include <corecrt_io.h>
 # endif
 // In order to avoid having to include <windows.h>, use forward declaration
 #if GTEST_OS_WINDOWS_MINGW && !defined(__MINGW64_VERSION_MAJOR)
